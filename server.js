@@ -2,8 +2,7 @@ const express = require('express');
 const app = express();
 const PORT = process.env.PORT || 3000;
  
-const jsonData = {
- rewards : [{
+const jsonData = [
   {
     certificationName: 'Salesforce Advanced Course',
     domain: 'Salesforce',
@@ -42,12 +41,10 @@ const jsonData = {
     domain: 'JavaScript',
     rewardValue: '300'
   }
- 
-  }]
-};
+];
  
 app.get('/api/data', (req, res) => {
-  res.json(jsonData);
+  res.json({rewards : jsonData});
 });
  
 app.listen(PORT, () => {
