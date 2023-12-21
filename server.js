@@ -6,40 +6,40 @@ const jsonData = [
   {
     certificationName: 'Salesforce Advanced Course',
     domain: 'Salesforce',
-    rewardValue: '300€'
+    rewardValue: '300'
   },
   {
     certificationName: 'Apex Triggers Beginner',
     domain: 'Apex',
-    rewardValue: '100€'
+    rewardValue: '100'
   },
   {
     certificationName: 'MS Dynamic Advanced Course',
     domain: 'MS Dynamics',
-    rewardValue: '200€'
+    rewardValue: '200'
   },
   {
     certificationName: 'Mulesoft Advanced API Course',
     domain: 'Mulesoft',
-    rewardValue: '200€'
+    rewardValue: '200'
   },
 
  {
     certificationName: 'Back-End Advanced Course',
     domain: 'Web Development',
-    rewardValue: '150€'
+    rewardValue: '150'
   },
 
  {
     certificationName: 'CSS Advanced Course',
     domain: 'Web Development',
-    rewardValue: '50€'
+    rewardValue: '50'
   },
 
  {
     certificationName: 'JavaScript Advanced Course',
     domain: 'JavaScript',
-    rewardValue: '300€'
+    rewardValue: '300'
   }
   
 ];
