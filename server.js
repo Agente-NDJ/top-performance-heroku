@@ -17,7 +17,31 @@ const jsonData = [
     certificationName: 'MS Dynamic Advanced Course',
     domain: 'MS Dynamics',
     rewardValue: '200'
+  },
+ {
+    certificationName: 'Mulesoft Advanced API Course',
+    domain: 'Mulesoft',
+    rewardValue: '200'
+  },
+
+ {
+    certificationName: 'Back-End Advanced Course',
+    domain: 'Web Development',
+    rewardValue: '150'
+  },
+
+ {
+    certificationName: 'CSS Advanced Course',
+    domain: 'Web Development',
+    rewardValue: '50'
+  },
+
+ {
+    certificationName: 'JavaScript Advanced Course',
+    domain: 'JavaScript',
+    rewardValue: '300'
   }
+ 
   
 ];
  
