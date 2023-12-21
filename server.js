@@ -23,7 +23,25 @@ const jsonData = [
     domain: 'Mulesoft',
     rewardValue: '200€'
   },
-  // Add more data as needed
+
+ {
+    certificationName: 'Back-End Advanced Course',
+    domain: 'Web Development',
+    rewardValue: '150€'
+  },
+
+ {
+    certificationName: 'CSS Advanced Course',
+    domain: 'Web Development',
+    rewardValue: '50€'
+  },
+
+ {
+    certificationName: 'JavaScript Advanced Course',
+    domain: 'JavaScript',
+    rewardValue: '300€'
+  }
+  
 ];
  
 app.get('/api/data', (req, res) => {
